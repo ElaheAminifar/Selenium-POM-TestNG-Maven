@@ -25,7 +25,7 @@ public class FlightTestCases extends TestBase {
 		homepage = new HomePage();
 	}
 
-	//Test comment added by Elahe
+	//Test comment added by Elahe ...by remote user
 	@Test(groups = { "Simple", "UI" })
 	public void TC001_CheckifLogoisPresent() {
 		boolean flag = homepage.isLogoDisplayed();
